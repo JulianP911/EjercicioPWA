@@ -1,5 +1,6 @@
 import React from "react";
 
+// Funcion NavbarMarvel
 function NavbarMarvel () {
     return (
         <nav className="navbar navbar-light bg-light">
@@ -13,4 +14,5 @@ function NavbarMarvel () {
     )
 }
 
+// Exportar funcion NavbarMarvel para ser visible en otros archivos
 export default NavbarMarvel;

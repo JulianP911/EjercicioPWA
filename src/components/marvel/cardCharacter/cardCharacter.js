@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Funcion CardCharacter
 function CardCharacter (props) {
     let [character] = useState(props.character)
     return(
@@ -15,4 +16,5 @@ function CardCharacter (props) {
     );
 }
 
+// Exportar funcion CardCharacter para ser visible en otros archivos
 export default CardCharacter;

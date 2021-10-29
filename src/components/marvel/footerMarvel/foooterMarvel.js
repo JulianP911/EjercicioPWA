@@ -1,5 +1,6 @@
 import React from "react";
 
+// Funcion FooterMarvel
 function FooterMarvel () {
     return(
         <footer>
@@ -10,4 +11,5 @@ function FooterMarvel () {
     )
 }
 
+// Exportar funcion FooterMarvel para ser visible en otros archivos
 export default FooterMarvel;

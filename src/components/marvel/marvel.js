@@ -3,8 +3,10 @@ import CardCharacter from "./cardCharacter/cardCharacter";
 import FooterMarvel from "./footerMarvel/foooterMarvel";
 import NavbarMarvel from "./navbarMarvel/narvbarMarvel";
 
+// Importar funcion que permite realizar la operacion de hash con md5
 const md5 = require("md5"); 
 
+// Funcion Marvel
 function Marvel () {
     let [characters, setCharacters] = useState([]);
     useEffect(() => {
@@ -41,4 +43,5 @@ function Marvel () {
     );
 }
 
+// Exportar funcion Marvel para ser visible en otros archivos
 export default Marvel;
